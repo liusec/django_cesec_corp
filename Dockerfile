@@ -13,6 +13,10 @@ RUN wget https://bootstrap.pypa.io/get-pip.py --no-check-certificate && python g
 # 创建应用目录
 RUN mkdir -p /app
 COPY . /app
+
+# install requirement
+RUN pip install -r requirement.txt
+
 WORKDIR /app
 RUN chmod 755 ./start.sh
 
