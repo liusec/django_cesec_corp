@@ -1,2 +1,14 @@
 Django==1.9.0
-
+itsdangerous==0.24
+xlrd==1.0.0
+xlutils==2.0.0
+xlwt==1.1.2
+IPy==0.83
+requests==2.12.3
+beautifulsoup4==4.5.1
+bs4==0.0.1
+pan-python==0.10.0
+decorator==4.0.10
+networkx==1.11
+Pillow==3.4.2
+markdown2==2.3.2
