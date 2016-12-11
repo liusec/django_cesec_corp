@@ -13,9 +13,9 @@ RUN mkdir -p /app
 COPY . /app
 
 # install requirement
+WORKDIR /app
 RUN pip install -r requirement.txt
 
-WORKDIR /app
 RUN chmod 755 ./start.sh
 
 EXPOSE 80
